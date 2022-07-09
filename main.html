@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/tree.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>BS Tree Visualizor</title>
+    <div id="menu" class="menu">
+        <div id="title" class="title">
+            <h1>Binary Search Tree Visualizor</h1>
+        </div>
+    </div>
 </head>
 <body>
-    <p>hello world</p>
+    <button id="generate">Generate Random Order of Numbers</button>
+    <div id="order-container" class="order-container"></div>
+
+
+
+
+    <button id="node-btn">Add Node</button>
+    <button id="layer-btn">Add Layer</button>
+
+    <div id="tree" class="tree"></div>
+
+    <div id="tree-container">
+        <div class="node">4</div>
+        <div class="curr-node">4</div>
+        <div class="comp-node">4</div>
+    </div>
 </body>
+
+<footer>
+    <script src="js/func.js"></script>
+    <script src="js/tree_func.js"></script>
+    <script src="js/jquery.js"></script>
+</footer>
 </html>
